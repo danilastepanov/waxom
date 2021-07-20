@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="index.html" class="logo">
+                <svg
+                    class="logo__svg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="64px"
+                    height="56px"
+                    viewBox="0 0 64 56"
+                >
+                    <path
+                        d="M 52.87 55.13C 52.87 55.13 58.13 45.94 58.13 45.94 58.13 45.94 63.38 55.13 63.38 55.13 63.38 55.13 52.87 55.13 52.87 55.13ZM 46.3 45.17C 46.3 45.17 56.81 45.17 56.81 45.17 56.81 45.17 51.56 54.36 51.56 54.36 51.56 54.36 46.3 45.17 46.3 45.17ZM 51.56 34.45C 51.56 34.45 56.81 43.64 56.81 43.64 56.81 43.64 46.3 43.64 46.3 43.64 46.3 43.64 51.56 34.45 51.56 34.45ZM 39.74 33.69C 39.74 33.69 50.24 33.69 50.24 33.69 50.24 33.69 44.99 42.87 44.99 42.87 44.99 42.87 39.74 33.69 39.74 33.69ZM 44.99 22.97C 44.99 22.97 50.24 32.15 50.24 32.15 50.24 32.15 39.74 32.15 39.74 32.15 39.74 32.15 44.99 22.97 44.99 22.97ZM 33.17 22.2C 33.17 22.2 43.68 22.2 43.68 22.2 43.68 22.2 38.42 31.39 38.42 31.39 38.42 31.39 33.17 22.2 33.17 22.2ZM 38.42 11.48C 38.42 11.48 43.68 20.67 43.68 20.67 43.68 20.67 33.17 20.67 33.17 20.67 33.17 20.67 38.42 11.48 38.42 11.48ZM 26.6 10.71C 26.6 10.71 37.11 10.71 37.11 10.71 37.11 10.71 31.85 19.9 31.85 19.9 31.85 19.9 26.6 10.71 26.6 10.71ZM 31.85-0.01C 31.85-0.01 37.11 9.18 37.11 9.18 37.11 9.18 26.6 9.18 26.6 9.18 26.6 9.18 31.85-0.01 31.85-0.01ZM 20.03 20.67C 20.03 20.67 25.29 11.48 25.29 11.48 25.29 11.48 30.54 20.67 30.54 20.67 30.54 20.67 20.03 20.67 20.03 20.67ZM 13.46 32.15C 13.46 32.15 18.72 22.97 18.72 22.97 18.72 22.97 23.97 32.15 23.97 32.15 23.97 32.15 13.46 32.15 13.46 32.15ZM 6.9 43.64C 6.9 43.64 12.15 34.45 12.15 34.45 12.15 34.45 17.4 43.64 17.4 43.64 17.4 43.64 6.9 43.64 6.9 43.64ZM 0.33 55.13C 0.33 55.13 5.58 45.94 5.58 45.94 5.58 45.94 10.84 55.13 10.84 55.13 10.84 55.13 0.33 55.13 0.33 55.13ZM 17.4 45.17C 17.4 45.17 12.15 54.36 12.15 54.36 12.15 54.36 6.9 45.17 6.9 45.17 6.9 45.17 17.4 45.17 17.4 45.17ZM 23.97 33.69C 23.97 33.69 18.72 42.87 18.72 42.87 18.72 42.87 13.46 33.69 13.46 33.69 13.46 33.69 23.97 33.69 23.97 33.69ZM 30.54 22.2C 30.54 22.2 25.29 31.39 25.29 31.39 25.29 31.39 20.03 22.2 20.03 22.2 20.03 22.2 30.54 22.2 30.54 22.2ZM 37.11 55.13C 37.11 55.13 26.6 55.13 26.6 55.13 26.6 55.13 31.85 45.94 31.85 45.94 31.85 45.94 37.11 55.13 37.11 55.13ZM 43.68 45.17C 43.68 45.17 38.42 54.36 38.42 54.36 38.42 54.36 33.17 45.17 33.17 45.17 33.17 45.17 43.68 45.17 43.68 45.17ZM 50.24 55.13C 50.24 55.13 39.74 55.13 39.74 55.13 39.74 55.13 44.99 45.94 44.99 45.94 44.99 45.94 50.24 55.13 50.24 55.13Z"
+                    />
+                </svg>
+                <span class="logo__txt">Waxom</span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li class="nav__item">Home</li>
+                    <li class="nav__item">About Us</li>
+                    <li class="nav__item">Portfolio</li>
+                    <li class="nav__item">Features</li>
+                    <li class="nav__item">Blog</li>
+                    <li class="nav__item">Pricing</li>
+                    <li class="nav__item">Shortcodes</li>
+                    <li class="nav__item">Contact</li>
+                </ul>
+                <button class="nav__button">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="20"
+                        height="27"
+                        viewBox="0 0 20 27"
+                    >
+                        <path
+                            d="M15.995483,4.9985275 C15.995483,4.9985275 14.496216,4.9985275 14.496216,4.9985275 C14.496216,3.3417358 12.483032,1.998188 9.998779,1.998188 C7.5144043,1.998188 5.5009766,3.3417358 5.5009766,4.9985275 C5.5009766,4.9985275 4.001831,4.9985275 4.001831,4.9985275 C2.3458252,4.9985275 1.0032959,6.3412437 1.0032959,7.997204 C1.0032959,7.997204 1.0032959,22.995163 1.0032959,22.995163 C1.0032959,24.651123 2.3458252,25.994255 4.001831,25.994255 C4.001831,25.994255 15.995483,25.994255 15.995483,25.994255 C17.651611,25.994255 18.994263,24.651123 18.994263,22.995163 C18.994263,22.995163 18.994263,7.997204 18.994263,7.997204 C18.994263,6.3412437 17.651611,4.9985275 15.995483,4.9985275 ZM9.998779,3.4983559 C11.655029,3.4983559 12.99707,3.96241 12.99707,4.9985275 C12.99707,4.9985275 7.000244,4.9985275 7.000244,4.9985275 C7.000244,3.96241 8.342651,3.4983559 9.998779,3.4983559 ZM17.494995,22.995163 C17.494995,23.823143 16.823486,24.494087 15.995483,24.494087 C15.995483,24.494087 4.001831,24.494087 4.001831,24.494087 C3.173584,24.494087 2.5024414,23.823143 2.5024414,22.995163 C2.5024414,22.995163 2.5024414,21.495407 2.5024414,21.495407 C2.5024414,21.495407 17.494995,21.495407 17.494995,21.495407 C17.494995,21.495407 17.494995,22.995163 17.494995,22.995163 ZM17.494995,19.99524 C17.494995,19.99524 2.5024414,19.99524 2.5024414,19.99524 C2.5024414,19.99524 2.5024414,7.997204 2.5024414,7.997204 C2.5024414,7.168808 3.173584,6.497452 4.001831,6.497452 C4.001831,6.497452 5.5009766,6.497452 5.5009766,6.497452 C5.5009766,6.497452 5.5009766,10.997543 5.5009766,10.997543 C5.5009766,10.997543 7.000244,10.997543 7.000244,10.997543 C7.000244,10.997543 7.000244,6.497452 7.000244,6.497452 C7.000244,6.497452 12.99707,6.497452 12.99707,6.497452 C12.99707,6.497452 12.99707,10.997543 12.99707,10.997543 C12.99707,10.997543 14.496216,10.997543 14.496216,10.997543 C14.496216,10.997543 14.496216,6.497452 14.496216,6.497452 C14.496216,6.497452 15.995483,6.497452 15.995483,6.497452 C16.823975,6.497452 17.494995,7.168808 17.494995,7.997204 C17.494995,7.997204 17.494995,19.99524 17.494995,19.99524 Z"
+                        ></path>
+                    </svg>
+                </button>
+                <form action="#" class="form">
+                    <label class="search-label">
+                        <input class="search" id="search" type="search" />
+                    </label>
+                </form>
+            </nav>
+        </header>
+
+        <section class="slider">
+            <button class="slider__arrow slider__arrow-left">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="42px"
+                    height="80px"
+                    viewBox="0 0 42 80"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M39.02597,73.97943 C39.02597,73.97943 1.0048065,37.498016 1.0048065,37.498016 C1.0048065,37.498016 39.02597,1.01828 39.02597,1.01828 C39.02597,1.01828 40.99504,3.0219421 40.99504,3.0219421 C40.99504,3.0219421 5.065979,37.498016 5.065979,37.498016 C5.065979,37.498016 40.99504,71.97656 40.99504,71.97656 C40.99504,71.97656 39.02597,73.97943 39.02597,73.97943 Z"
+                    ></path>
+                </svg>
+            </button>
+            <article class="slider__content">
+                <span class="slider__header">Unique and Modern Design</span>
+                <span class="slider__subheader">Portfolio PSD Template</span>
+                <span class="slider__text">
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                    placerat facer possim assum.
+                </span>
+                <button class="button">Get Started</button>
+            </article>
+            <div class="slider__nav">
+                <button class="slider__nav-link"></button>
+                <button class="slider__nav-link"></button>
+                <button class="slider__nav-link"></button>
+                <button class="slider__nav-link"></button>
+                <button class="slider__nav-link"></button>
+            </div>
+            <button class="slider__arrow slider__arrow-right">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="42px"
+                    height="80px"
+                    viewBox="0 0 42 75"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M2.973877,73.97943 C2.973877,73.97943 40.995117,37.498016 40.995117,37.498016 C40.995117,37.498016 2.973877,1.01828 2.973877,1.01828 C2.973877,1.01828 1.0048828,3.0219421 1.0048828,3.0219421 C1.0048828,3.0219421 36.93396,37.498016 36.93396,37.498016 C36.93396,37.498016 1.0048828,71.97656 1.0048828,71.97656 C1.0048828,71.97656 2.973877,73.97943 2.973877,73.97943 Z"
+                    ></path>
+                </svg>
+            </button>
+        </section>
+        <section class="services">
+            <figure class="services__items">
+                <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="49" height="49">
+                    <path
+                        fill-rule="evenodd"
+                        d="M47.668 19.717L33.402 33.985.534 48.463l14.477-32.872L29.279 1.327c.619-.621 1.625-.621 2.248 0 .621.623.621 1.628 0 2.249L17.683 17.422 9.107 36.888l2.999 2.999 19.467-8.573L45.42 17.47c.619-.623 1.623-.623 2.248 0 .621.62.621 1.63 0 2.247zm-17.923 8.749c-.311.307-.717.465-1.125.465-.409 0-.815-.158-1.125-.465-.62-.623-.62-1.63 0-2.25l13.332-13.331c.623-.625 1.627-.625 2.25 0 .623.62.623 1.625 0 2.249L29.745 28.466zm-3.48-3.481c-.31.308-.716.465-1.125.465-.406 0-.814-.157-1.125-.465-.621-.621-.621-1.631 0-2.25L37.348 9.403c.622-.623 1.626-.623 2.25 0 .621.62.621 1.627 0 2.25L26.265 24.985zm-3.481-3.483c-.311.312-.719.466-1.125.466s-.814-.154-1.125-.466c-.62-.619-.62-1.629 0-2.249L33.867 5.922c.623-.624 1.628-.624 2.25 0 .622.62.622 1.626 0 2.25l-13.333 13.33z"
+                    />
+                </svg>
+                <h2 class="services__subheader">Web & App Design</h2>
+                <figcaption class="services__text">
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
+                </figcaption>
+                <span class="services__line"></span>
+            </figure>
+            <figure class="services__items">
+                <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="44" height="40">
+                    <path
+                        fill-rule="evenodd"
+                        d="M.414 19.697l3.985-2.149 17.452 9.41 17.451-9.41 3.985 2.149-21.436 11.556L.414 19.697zm0-8.031L21.851.106l21.436 11.56-21.436 11.561L.414 11.666zm21.437 23.319l17.451-9.412 3.985 2.148-21.436 11.562L.414 27.721l3.985-2.148 17.452 9.412z"
+                    />
+                </svg>
+                <h2 class="services__subheader">Development</h2>
+                <figcaption class="services__text">
+                    Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
+                </figcaption>
+                <span class="services__line"></span>
+            </figure>
+            <figure class="services__items">
+                <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+                    <path
+                        fill-rule="evenodd"
+                        d="M43.927 21.85c0-1.62-1.166-3.349-2.605-3.857-1.44-.51-2.835-1.758-3.241-2.742-.406-.982-.3-2.855.355-4.234.656-1.379.259-3.426-.886-4.574-1.146-1.146-3.193-1.541-4.573-.885-1.38.656-3.25.764-4.231.357-.981-.405-2.229-1.803-2.741-3.242S23.764.067 22.144.067c-1.621 0-3.35 1.167-3.862 2.606-.512 1.439-1.76 2.836-2.741 3.242-.981.407-2.851.299-4.231-.357-1.378-.656-3.427-.261-4.573.885-1.145 1.148-1.542 3.195-.886 4.574.656 1.38.76 3.249.353 4.233-.408.982-1.799 2.233-3.238 2.743C1.526 18.501.36 20.23.36 21.85c0 1.621 1.166 3.349 2.606 3.861 1.439.512 2.832 1.763 3.24 2.743.408.98.301 2.85-.355 4.229-.656 1.379-.259 3.427.886 4.572 1.146 1.147 3.193 1.544 4.573.887 1.38-.656 3.25-.761 4.231-.353.982.407 2.229 1.805 2.741 3.243.512 1.436 2.241 2.601 3.862 2.601 1.62 0 3.349-1.165 3.861-2.601.512-1.438 1.758-2.836 2.739-3.246.981-.408 2.853-.3 4.233.356 1.379.657 3.427.26 4.573-.887 1.145-1.145 1.542-3.193.886-4.572-.655-1.379-.763-3.25-.357-4.23.406-.981 1.803-2.23 3.243-2.742 1.439-.512 2.605-2.24 2.605-3.861zm-21.783 7.992c-4.42 0-7.994-3.572-7.994-7.983 0-4.419 3.574-7.994 7.994-7.994 4.41 0 7.984 3.575 7.984 7.994 0 4.411-3.574 7.983-7.984 7.983z"
+                    />
+                </svg>
+                <h2 class="services__subheader">Customization</h2>
+                <figcaption class="services__text">
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
+                </figcaption>
+                <span class="services__line"></span>
+            </figure>
+            <figure class="services__items">
+                <svg class="services__img" xmlns="http://www.w3.org/2000/svg" width="52" height="36">
+                    <path
+                        fill-rule="evenodd"
+                        d="M51.411 14.341l-9.49 19.422c-.595 1.221-2.192 2.221-3.543 2.221H3.08c-1.35 0-1.968-1.002-1.369-2.221l9.492-19.422c.593-1.223 2.189-2.226 3.539-2.226H50.04c1.354 0 1.969 1.003 1.371 2.226zM9 13.245L.738 30.147V7.983c0-1.364 1.105-2.482 2.458-2.481h10.816V4.058c0-.995.382-1.923 1.082-2.628.699-.707 1.623-1.095 2.607-1.095h6.29c2.029 0 3.684 1.667 3.684 3.723v1.443h10.816c1.351 0 2.458 1.118 2.458 2.482v1.654H14.742c-2.267 0-4.74 1.55-5.742 3.608zm7.47-7.743h8.747V4.058c0-.688-.55-1.243-1.228-1.243h-6.291c-.326 0-.635.13-.866.368-.23.234-.362.547-.362.875v1.444z"
+                    />
+                </svg>
+                <h2 class="services__subheader">Marketing</h2>
+                <figcaption class="services__text">
+                    Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim.
+                </figcaption>
+                <span class="services__line"></span>
+            </figure>
+        </section>
+        <section class="background">
+            <h2 class="block__title">Waxom is Realization of your Ideas.</h2>
+            <p class="block-subtitle">
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.
+            </p>
+            <figure class="background__img">
+                <img src="img/browser-left.jpg" alt="" class="background__img-left" width: 770px height: 400px /> <img
+                src="img/browser-center.jpg" alt="" class="background__img-center" width: 770px height: 482px /> <img
+                src="img/browser-right.jpg" alt="" class="background__img-right" width: 770px height: 400px />
+            </figure>
+        </section>
+        <aside class="theme">
+            <div class="theme__wrapper">
+                <span class="theme__title"> <span class="theme__waxom">Waxom</span> Multipurpose WordPress Theme</span>
+                <p class="theme__text">Don't Forget to Rate the Template. Thanks so much!</p>
+            </div>
+            <button class="button button-theme">Purchase Now</button>
+        </aside>
+        <section class="projects">
+            <span class="project__header">Our Latest Projects.</span>
+            <p class="projects__text">
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.
+            </p>
+            <div class="projects__buttons">
+                <button class="projects__button projects__button-first">All</button>
+                <button class="projects__button">Web Design</button>
+                <button class="projects__button">Mobile App</button>
+                <button class="projects__button">Illustration</button>
+                <button class="projects__button">Photography</button>
+            </div>
+            <div class="project__wrapper">
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo1.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Claritas Etiam Processus</span>
+                        <span class="project__subcaption">Photography, Nature</span>
+                    </div>
+                </article>
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo2.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Quam Nutamus Farum</span>
+                        <span class="project__subcaption">Graphic Design, Mock-Up</span>
+                    </div>
+                </article>
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo3.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Usus Legentis Videntur</span>
+                        <span class="project__subcaption">Photography, Holiday</span>
+                    </div>
+                </article>
+            </div>
+            <div class="project__wrapper">
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo4.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Quam Nutamus Farum</span>
+                        <span class="project__subcaption">Graphic Design, Mock-Up</span>
+                    </div>
+                </article>
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo5.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Quam Nutamus Farum</span>
+                        <span class="project__subcaption">Graphic Design, Mock-Up</span>
+                    </div>
+                </article>
+                <article class="project__news">
+                    <div class="project__fade">
+                        <a href="#" class="fade__link"
+                            ><img src="img/link.png" alt="fade link" class="fade__link-img"
+                        /></a>
+                        <a href="#" class="fade__link"
+                            ><img src="img/lupa.png" alt="fade lupa" class="fade__link-img"
+                        /></a>
+                    </div>
+                    <img src="img/photo6.jpg" alt="photo" class="project__img" width: 370px height: 237px/>
+                    <div class="news__wrapper">
+                        <span class="project__caption">Usus Legentis Videntur</span>
+                        <span class="project__subcaption">Photography, Holiday</span>
+                    </div>
+                </article>
+            </div>
+            <button class="button">Load More</button>
+        </section>
+        <section class="video">
+            <!-- <img src="img/video.jpg" class="video__img" width: 1920px height:
+            705px/> -->
+            <button class="video__button">
+                <svg
+                    class="video__button-img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="69.969"
+                    height="69.97"
+                    viewBox="0 0 69.969 69.97"
+                >
+                    <path
+                        id="icon-play"
+                        class="cls-1"
+                        d="M955.934,3685.82a2.047,2.047,0,0,1-2.06-2.06v-29.52a2.062,2.062,0,0,1,3.379-1.59l17.714,14.77a2.053,2.053,0,0,1,0,3.16l-17.714,14.76A2.031,2.031,0,0,1,955.934,3685.82Zm2.06-27.19v20.73L970.431,3669Zm2.943,45.37a34.793,34.793,0,0,1-17.106-4.47,2.06,2.06,0,1,1,2.021-3.59,30.921,30.921,0,1,0-6.7-5.09,2.059,2.059,0,1,1-2.913,2.91A35.057,35.057,0,1,1,960.937,3704Z"
+                        transform="translate(-926.031 -3634.03)"
+                    />
+                </svg>
+            </button>
+            <video muted="" loop="" class="video__source" poster="img/video.jpg">
+                <source class="video-back-src" src="video/Mock-up.mp4" type="video/mp4" />
+                <source class="video-back-src" src="video/Mock-up.ogv" type="video/ogg" />
+                <source class="video-back-src" src="video/Mock-up.webm" type="video/webm" />
+                Your browser does not support the video tag ;.
+            </video>
+        </section>
+        <section class="iphone">
+            <div class="iphone__wrapper">
+                <span class="iphone__title">Excellent for Mobile Devices.</span>
+                <p class="iphone__text">
+                    Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                    ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
+                </p>
+                <ul class="iphone__items">
+                    <li class="iphone__item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                    <li class="iphone__item">Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+                    <li class="iphone__item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                    <li class="iphone__item">Investigationes demonstraverunt lectores</li>
+                </ul>
+            </div>
+        </section>
+        <section class="statistics">
+            <figure class="statistics__item">
+                <img src="img/icon1.png" alt="" class="statistics__img" />
+                <figcaption class="statistics__texts">
+                    <span class="statistics__number">3587</span>
+                    <p class="statistics_text">Satisfied Clients</p>
+                    <span class="statistics__line"></span>
+                </figcaption>
+            </figure>
+            <figure class="statistics__item">
+                <img src="img/icon2.png" alt="" class="statistics__img" />
+                <figcaption class="statistics__texts">
+                    <span class="statistics__number">207</span>
+                    <p class="statistics_text">Cups of coffee</p>
+                    <span class="statistics__line"></span>
+                </figcaption>
+            </figure>
+            <figure class="statistics__item">
+                <img src="img/icon3.png" alt="" class="statistics__img" />
+                <figcaption class="statistics__texts">
+                    <span class="statistics__number">2500</span>
+                    <p class="statistics_text">Blog posts</p>
+                    <span class="statistics__line"></span>
+                </figcaption>
+            </figure>
+            <figure class="statistics__item">
+                <img src="img/icon4.png" alt="" class="statistics__img" />
+                <figcaption class="statistics__texts">
+                    <span class="statistics__number">873</span>
+                    <p class="statistics_text">Likes</p>
+                    <span class="statistics__line"></span>
+                </figcaption>
+            </figure>
+            <figure class="statistics__item">
+                <img src="img/icon5.png" alt="" class="statistics__img" />
+                <figcaption class="statistics__texts">
+                    <span class="statistics__number">900</span>
+                    <p class="statistics_text">We launched</p>
+                    <span class="statistics__line"></span>
+                </figcaption>
+            </figure>
+        </section>
+        <section class="posts">
+            <span class="posts__title">Recent Posts.</span>
+            <p class="posts__subtitle">
+                Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam
+                processus dynamicus, qui sequitur mutationem consuetudium.
+            </p>
+            <div class="posts__wrapper">
+                <article class="posts__item">
+                    <img src="img/blog-1.jpg" alt="" class="posts__img" />
+                    <time datetime="27.03.2021" class="posts__date"
+                        ><span class="date">27</span> <span class="month">Mar.</span></time
+                    >
+                    <div class="posts__footer">
+                        <h2 class="posts__name">Lorem ipsum dolor sit amet</h2>
+                        <p class="posts__text">
+                            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        </p>
+                        <a href="#" class="posts__read">Read More</a>
+                    </div>
+                </article>
+                <article class="posts__item">
+                    <img src="img/blog-2.jpg" alt="" class="posts__img" />
+                    <time datetime="27.03.2021" class="posts__date"
+                        ><span class="date">27</span> <span class="month">Mar.</span></time
+                    >
+                    <div class="posts__footer">
+                        <h2 class="posts__name">Lorem ipsum dolor sit amet</h2>
+                        <p class="posts__text">
+                            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        </p>
+                        <a href="#" class="posts__read">Read More</a>
+                    </div>
+                </article>
+                <article class="posts__item">
+                    <img src="img/blog-3.jpg" alt="" class="posts__img" />
+                    <time datetime="27.03.2021" class="posts__date"
+                        ><span class="date">27</span> <span class="month">Mar.</span></time
+                    >
+                    <div class="posts__footer">
+                        <h2 class="posts__name">Lorem ipsum dolor sit amet</h2>
+                        <p class="posts__text">
+                            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        </p>
+                        <a href="#" class="posts__read">Read More</a>
+                    </div>
+                </article>
+            </div>
+            <button class="posts__button posts__button-left">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="21.969"
+                    height="21.97"
+                    viewBox="0 0 21.969 21.97"
+                >
+                    <path
+                        id="left"
+                        class="cls-1"
+                        d="M942.583,5770.43l4.772-4.77a0.735,0.735,0,0,1,1.04,1.04l-4.254,4.26,4.254,4.25a0.735,0.735,0,0,1-1.04,1.04l-4.772-4.77a0.731,0.731,0,0,1-.216-0.52A0.759,0.759,0,0,1,942.583,5770.43Zm3.4-10.4A10.98,10.98,0,1,1,935,5771.01,10.979,10.979,0,0,1,945.987,5760.03Zm0,20.49a9.51,9.51,0,1,0-9.512-9.51A9.526,9.526,0,0,0,945.987,5780.52Z"
+                        transform="translate(-935 -5760.03)"
+                    />
+                </svg>
+            </button>
+            <button class="posts__button posts__button-right">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="21.969"
+                    height="21.97"
+                    viewBox="0 0 21.969 21.97"
+                >
+                    <path
+                        id="right"
+                        class="cls-1"
+                        d="M979.417,5770.43l-4.772-4.77a0.735,0.735,0,0,0-1.04,1.04l4.254,4.26-4.254,4.25a0.735,0.735,0,0,0,1.04,1.04l4.772-4.77a0.731,0.731,0,0,0,.216-0.52A0.759,0.759,0,0,0,979.417,5770.43Zm-3.405-10.4A10.98,10.98,0,1,0,987,5771.01,10.978,10.978,0,0,0,976.012,5760.03Zm0,20.49a9.51,9.51,0,1,1,9.513-9.51A9.526,9.526,0,0,1,976.012,5780.52Z"
+                        transform="translate(-965.031 -5760.03)"
+                    />
+                </svg>
+            </button>
+        </section>
+        <section class="partners">
+            <img src="img/logo-01.png" alt="logo1" class="partners__logo1 partners__logo" width: 210px height: 127px/>
+            <img src="img/logo-02.png" alt="logo2" class="partners__logo2 partners__logo" width: 210px height: 210px/>
+            <img src="img/logo-03.png" alt="logo3" class="partners__logo3 partners__logo" width: 210px height: 130px/>
+            <img src="img/logo-04.png" alt="logo4" class="partners__logo4 partners__logo" width: 210px height: 164px/>
+        </section>
+        <script src="js/scrypt.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("load",(function(){let e=document.querySelector(".video__button"),t=document.querySelector(".video__source");document.querySelector(".video:before");function o(){t.paused?(t.play(),e.style.display="none",t.style.opacity="1"):(t.pause(),e.style.display="flex",t.style.opacity="0.6")}t.addEventListener("click",o),e.addEventListener("click",o)}));
